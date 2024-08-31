@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat';
+}
+
+body {
+    background: #151515;
+}
+
+.header__nav-list a ,.footer__nav-list a{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    transition: .3s;
+    border-bottom: 3px solid #ffffff00;
+}
+
+.header__nav-list  a:hover, .footer__nav-list a:hover {
+    border-bottom: 3px solid #FFF;
+}
+
+.container {
+    max-width: 1108px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.header {
+    background: #282828;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-list, .footer__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__nav-list img {
+    padding-top: 6px;
+}
+
+.header__nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 750px;
+    color: #FFF;
+    background: url(../images/headerBg.jpg) center / cover;
+    gap: 38px;
+}
+
+.header__content h1 {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 75%;
+}
+
+.header__content a {
+    display: flex;
+    color: #000;
+    background: #FFF;
+    padding: 14px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.header__content a:hover {
+    color: #FFF;
+    background: #282828;
+}
+
+.header__content img {
+    margin-left: 10px;
+}
+
+.main__details {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.details, .chargingcase, .sensor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.details p, .chargingcase p {
+    max-width: 538px;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.sensor p {
+    max-width: 333px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.p__one {text-align: end;} .p__two{text-align: start;}
+
+.main__boxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+    margin-bottom: 55px;
+}
+
+.main__boxes .box a {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    background: #151515;
+    padding: 7px 57px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #FFF;
+    padding: 15px 30px;
+    border-radius: 6px;
+}
+
+.box h2 {
+    font-weight: 700;
+}
+
+.box p {
+    text-transform: uppercase;
+}
+
+.footer {
+    background: #282828;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 81px 0 ;
+}
+
+.card {
+    display: flex;
+    gap: 29px;
+}
